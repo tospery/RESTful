@@ -1,0 +1,6 @@
+framework module RESTful {
+  umbrella header "RESTful-umbrella.h"
+
+  export *
+  module * { export * }
+}

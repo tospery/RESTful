@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
+  - ReactiveObjC (3.1.1)
+  - RESTful (1.0.0):
+    - AFNetworking (= 3.2.1)
+    - Mantle (= 2.1.1)
+    - ReactiveObjC (= 3.1.1)
+
+DEPENDENCIES:
+  - RESTful (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Mantle
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  RESTful:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RESTful: aa6d29b4104f0742f2982d5360afd4ec00b1ea21
+
+PODFILE CHECKSUM: 88351e0a71c6365f9f4784cb3c99e60b23f5b016
+
+COCOAPODS: 1.8.4
