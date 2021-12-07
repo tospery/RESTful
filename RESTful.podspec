@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RESTful'
-  s.version          = '1.0.0'
+  s.version          = '4.0.0-beta.2-v1'
   s.summary          = 'RESTful is a small but powerful library that makes creating REST clients simple and fun.'
 
 # This description is used to generate tags and improve search results.

@@ -22,7 +22,7 @@ pod 'RESTful'
 
 ## Author
 
-tospery, yangjianxiang@cd.tuan800.com
+YangJianxiang, tospery@gmail.com
 
 ## License
 
