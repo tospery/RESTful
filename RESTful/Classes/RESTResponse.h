@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
  This method returns `nil` by default. For JSON responses with additional metadata, subclasses
  should override this method and return the key path of the result.
  */
-+ (REST_NULLABLE NSString *)resultKeyPathForJSONDictionary:(NSDictionary *)JSONDictionary;
++ (REST_NULLABLE NSString *)resultKeyPathForJSONDictionary:(NSDictionary *)JSONDictionary resultClass:(Class)resultClass;
 
 /**
  Attempts to parse a JSON dictionary into an `RESTResponse` object.
